@@ -6,6 +6,7 @@
 body{
     position: relative;
 width: 1440px;
+height: 3823px;
 
     background-color: rgb(255, 255, 255);
 
@@ -717,5 +718,54 @@ nav.top-right {
   transform: scale(1);
   transition-duration: 0.5s;
 
+}
+
+
+.pervious{
+  position: absolute;
+width: 132px;
+height: 45px;
+left: 102px;
+top: 3823px;
+bottom:40px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.next{
+  position: absolute;
+width: 132px;
+height: 45px;
+left: 1193px;
+top: 3823px;
+bottom:40px;
+
+font-family: 'Roboto Serif';
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+}
+
+.next:hover{
+  border:2px dotted #000000;
+  border-radius: 50%;
+  color: rgba(65, 65, 65, 0.681);
+ 
+}
+
+.pervious:hover{
+  border:2px dotted #000000;
+  border-radius: 50%;
+  color: rgba(71, 71, 71, 0.681);
+ 
 }
 
